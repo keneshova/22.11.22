@@ -1,3 +1,19 @@
 * {
     box-sizing: border-box;
 }
+
+main {
+    display: flex;
+}
+
+header {
+    background-color: aquamarine;
+}
+
+aside {
+    background-color: rgb(202, 192, 103);
+}
+
+article {
+    background-color: darksalmon;
+}
