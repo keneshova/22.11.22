@@ -4,16 +4,20 @@
 
 main {
     display: flex;
+    flex-wrap: wrap;
 }
 
 header {
     background-color: aquamarine;
+    flex: 100%;
 }
 
 aside {
     background-color: rgb(202, 192, 103);
+    flex: 0 0 250px;
 }
 
 article {
     background-color: darksalmon;
+    flex: 1 1 0;
 }
